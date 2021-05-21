@@ -2,7 +2,7 @@ import Heading from "./Heading";
 import Bookings from "./Bookings";
 import Restaurant from "./Restaurant";
 import TouristInfoCards from "./TouristInfoCards";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 import "./Style.css";
 
@@ -21,7 +21,7 @@ const App = () => {
       <hr />
       <TouristInfoCards />
       <hr />
-      {/* <Footer footerData={footerData} /> */}
+      <Footer footerData={footerData} />
     </div>
   );
 };
