@@ -6,7 +6,7 @@ class RowResults extends React.Component {
     super(props);
     this.state = { selected: false };
   }
-
+  // Calculates and shows the number of nights for each booking
   dayDiff(checkIn, checkOut) {
     let date1 = moment(checkIn);
     let date2 = moment(checkOut);
