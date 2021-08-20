@@ -1,14 +1,18 @@
 import React from "react";
+import Clock from "./Clock";
 
 const Heading = () => {
   return (
-    <div>
-      <header className="App-header">CYF Hotel</header>
+    <header className="App-header">
       <img
-        alt="CYF-logo"
+        className="App-logo"
         src="https://image.flaticon.com/icons/svg/139/139899.svg"
+        alt="logo"
       />
-    </div>
+      <span className="App-title">CYF Hotel</span>
+      <Clock />
+    </header>
   );
 };
+
 export default Heading;
